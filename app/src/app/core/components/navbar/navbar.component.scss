@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  border-bottom: 1px solid #0f1b2b;
+  img {
+    width: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  img:hover {
+    position: relative;
+    top: -2px;
+  }
+}

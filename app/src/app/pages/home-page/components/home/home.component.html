@@ -1,0 +1,21 @@
+<h1>Must watch!</h1>
+<div class="homeContainer">
+  <div class="movieContainer" *ngFor="let movie of movies">
+    <div class="imageContainer">
+      <img src="{{ movie.imgUrl }}" alt="" />
+    </div>
+    <div class="starsContainer">
+      <img src="/assets/star.png" alt="" />
+      <img src="/assets/star.png" alt="" />
+      <img src="/assets/star.png" alt="" />
+      <img src="/assets/star.png" alt="" />
+      <img src="/assets/star.png" alt="" />
+    </div>
+    <p class="movie-title">{{ movie.title }}</p>
+    <div class="detailsContainer">
+      <p class="movie-detail--gender">{{ movie.gender }}</p>
+      -
+      <p class="movie-detail--duration">{{ movie.duration }}</p>
+    </div>
+  </div>
+</div>

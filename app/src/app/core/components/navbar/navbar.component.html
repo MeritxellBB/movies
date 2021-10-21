@@ -1,0 +1,7 @@
+<ul class="navbar">
+  <li *ngFor="let item of menuitem">
+    <a [routerLink]="[item.url]">
+      <img src="{{item.imgUrl}}" alt="">
+    </a>
+  </li>
+</ul>

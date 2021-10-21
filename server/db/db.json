@@ -1,0 +1,36 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Luca",
+      "year": 2021,
+      "photo": "url",
+      "characters": [
+        {
+          "name": "Luca Paguro",
+          "photo": "url"
+        },
+        {
+          "name": "Giulia Marcovaldo",
+          "photo": "url"
+        },
+        {
+          "name": "Alberto Scorfano",
+          "photo": "url"
+        },
+        {
+          "name": "Ercole Visconti",
+          "photo": "url"
+        },
+        {
+          "name": "Daniela Paguro",
+          "photo": "url"
+        },
+        {
+          "name": "Massimo Marcovaldo",
+          "photo": "url"
+        }
+      ]
+    }
+  ]
+}
